@@ -60,25 +60,22 @@ whatsapp-chat-analyzer/
    ```bash
    git clone https://github.com/yourusername/whatsapp-chat-analyzer.git
    cd whatsapp-chat-analyzer
+## ⚙️ Installation & Setup
 
-
-Create virtual environment & install dependencies
-
+### 1. Create virtual environment & install dependencies
+```bash
 pip install -r requirements.txt
-
-
-Export your WhatsApp chat
-
+2. Export your WhatsApp chat
 Open WhatsApp → Chat → More → Export Chat (without media)
 
 Save the .txt file inside the data/ folder
 
-Run the app
-
+## 3. Run the app
+bash
+Copy
+Edit
 streamlit run app.py
-
- Example Insights
-
+📊 Example Insights
 Most Active User: 📌 Ali with 2,340 messages
 
 Top Emoji Used: 😂, ❤️, 👍
@@ -88,7 +85,6 @@ Chat Sentiment: 68% Positive, 22% Neutral, 10% Negative
 Busiest Hour: ⏰ 9 PM – 11 PM
 
 🔮 Future Improvements
-
 Advanced topic modeling (LDA, BERTopic)
 
 Deep learning-based sentiment classifier (BERT, RoBERTa)
@@ -96,3 +92,10 @@ Deep learning-based sentiment classifier (BERT, RoBERTa)
 Network graph of user interactions
 
 Multilingual chat analysis
+
+yaml
+Copy
+Edit
+
+
+
