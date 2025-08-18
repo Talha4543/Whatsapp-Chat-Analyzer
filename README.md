@@ -1,5 +1,4 @@
 Whatsapp-Chat-Analyzer
-======================
 
 📊 WhatsApp Chat Analyzer (with Machine Learning)
 =================================================
